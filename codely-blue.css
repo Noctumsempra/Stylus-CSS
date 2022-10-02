@@ -1,0 +1,28 @@
+@-moz-document domain("github.com") {
+
+    [data-color-mode=light][data-light-theme=dark_high_contrast], 
+    [data-color-mode=dark][data-dark-theme=dark_high_contrast] 
+    {
+        --color-fg-default: #EBDBB2;
+        
+        --color-prettylights-syntax-comment: #A89984;
+        --color-prettylights-syntax-constant: #8EC07C;
+        --color-prettylights-syntax-entity: #FAC149;
+        --color-prettylights-syntax-storage-modifier-import: #FAC149;
+        --color-prettylights-syntax-entity-tag: #72f088;
+        --color-prettylights-syntax-keyword: #FB5245;
+        --color-prettylights-syntax-string: #B8BB26;
+        --color-prettylights-syntax-variable: #ffb757;
+        --color-prettylights-syntax-brackethighlighter-unmatched: #ff6a69;
+        --color-prettylights-syntax-invalid-illegal-text: #ffffff;
+        --color-prettylights-syntax-invalid-illegal-bg: #e82a2f;
+        --color-prettylights-syntax-carriage-return-text: #ffffff;
+        --color-prettylights-syntax-carriage-return-bg: #ff4445;
+        --color-prettylights-syntax-string-regexp: #72f088;
+    }
+    
+    .Box-body {
+        background-color: #19242A;
+    }
+    
+}
